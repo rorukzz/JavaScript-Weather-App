@@ -1,9 +1,12 @@
+require('dotenv').config();
+
+const apiKey = process.env.API_KEY;
+
 document.addEventListener("DOMContentLoaded", function () {
-    const apiKey = "61bdbb20093062fcb0335fe6acd5f77f";
     const getWeatherButton = document.getElementById("get-weather");
     const locationInput = document.getElementById("location");
     const weatherInfo = document.getElementById("weather-info");
-    const body = document.body; // Reference to the body element for changing the background
+    const body = document.body;
 
     getWeatherButton.addEventListener("click", function () {
         const location = locationInput.value.toUpperCase() || "auto:ip";

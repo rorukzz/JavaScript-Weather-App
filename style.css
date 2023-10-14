@@ -1,7 +1,13 @@
 body {
-    font-family: Arial, sans-serif;
-    background-color: #f2f2f2;
-    text-align: center;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-image: url('your-background.gif');
+    background-size: cover;
+    background-repeat: no-repeat;
 }
 
 .container {
@@ -10,6 +16,17 @@ body {
     background-color: #fff;
     border-radius: 10px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    width: 70%; /* Set the initial width */
+    max-width: 500px; /* Set a maximum width to prevent it from becoming too wide on larger screens */
+    background-color: rgba(255, 255, 255, 0.7);
+    text-align: center;
+    padding: 20px;
+}
+
+@media (max-width: 768px) {
+    .container {
+        width: 90%; /* Adjust the width for smaller screens */
+    }
 }
 
 h1 {
