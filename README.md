@@ -53,3 +53,4 @@ The core functionality of the "JavaScript-Weather-App" includes:
 Please note that the "JavaScript-Weather-App" is a client-side web application and does not require a server or database. It relies on a weather API for real-time weather data.
 
 If you have any further questions or need more detailed information about any specific aspect of the application, feel free to ask.
+
